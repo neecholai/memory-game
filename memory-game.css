@@ -1,0 +1,124 @@
+#main-container {
+    background-color: #5C94FB;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#title {
+    color: #FFCCCC;
+    text-shadow: -2px -2px #FAFAFA;
+    font-size: 120px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    margin: 0px auto 100px;
+}
+
+.button{
+    text-align: center;
+    width: 90%;
+}
+#play-button{
+    border-radius: 10px;
+    background-color: #D64D00;
+    color: #FFCCCC;
+    font-size: 20px;
+    padding: 15px 32px;
+    margin: 10px auto;
+    width: 25%;
+}
+
+#best-score {
+    color: #FAFAFA;
+    text-shadow: 1px 1px #FFCCCC;
+    font-size: 60px;
+    margin: 40px;
+}
+
+#game-container {
+    background-color: #5C94FB;
+    text-shadow: -1px -1px #FAFAFA;
+    color: #FFCCCC;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.grid {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.tile {
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+}
+
+.selected {
+    border: 6px solid #FFCCCC;;
+}
+
+.unselected {
+    background-image: url('office.jpg') !important;
+}
+
+.match {
+    border: 2px solid blue;
+}
+
+#score {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+#high-score {
+    color: white;
+    font-size: 20px;
+}
+
+#current-score {
+    font-size: 32px;
+    margin: 0px 10px;
+}
+
+#new-high {
+    color: #FAFAFA;
+    text-shadow: 1px 1px #FFCCCC;
+    font-size: 80px;
+    margin: 40px;
+}
+
+#win {
+    color: #FFCCCC;
+    text-shadow: -2px -2px #FAFAFA;
+    font-size: 120px;
+    text-align: center;
+    margin: 100px;
+}
+
+#main-menu {
+    border-radius: 10px;
+    background-color: #D64D00;
+    color: #FFCCCC;
+    font-size: 15px;
+    padding: 15px 32px;
+    margin: 0px -40%;
+    position: absolute;
+}
+
+#game-heading {
+    justify-content: center;
+    position: relative;
+}
